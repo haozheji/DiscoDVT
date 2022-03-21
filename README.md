@@ -22,7 +22,7 @@ You first need to download the pre-trained checkpoint of `bart-base` from https:
 
 ## Preprocessing
 
-We provide the preprocessed data used in the paper [here](https://drive.google.com/file/d/1lBr35lsLZAPDMmuOaG5rPkxyuZiXhN4Z/view?usp=sharing) (*Wikiplots*, *WritingPrompts* and *BookCorpus*) and overwrite the `data` folder.
+We provide the preprocessed data used in the paper [here](https://drive.google.com/file/d/1lBr35lsLZAPDMmuOaG5rPkxyuZiXhN4Z/view?usp=sharing) (*Wikiplots*, *WritingPrompts*) and overwrite the `data` folder.
 
 You can also follow the following instructions to process your own data. 
 
@@ -102,6 +102,8 @@ python eval_rep.py models/discoDVT_wikiplots/result.txt
 # Training
 
 ## Warm-Start
+
+We provide the preprocessed subset of BookCorpus [here](https://drive.google.com/file/d/1f-PgrQ7S4WeN-1CldJR7zzqhunBjGVAv/view?usp=sharing) and the checkpoint of discoDVT_warmstart [here](https://drive.google.com/file/d/1dIYiRAu0YRddsqbYl8WhABOuA56PhHfh/view?usp=sharing).
 
 ```bash
 # Save model parameters in discoDVT_warmstart
